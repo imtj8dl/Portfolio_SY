@@ -1,0 +1,111 @@
+/* 기본 폰트 설정 */
+body .gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 제목 폰트 */
+h1, h2, h3, h4, .gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 공통 패딩 */
+.section-padding {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* 네비게이션 스타일 */
+.nav-link:hover,
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+/* 헤더 영역 */
+header {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(stage.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: wide: 100%;
+    
+}
+
+header h1 .gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p .gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 1.2rem;
+}
+
+/* 카드 호버 효과 */
+.card-hover {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+.card-hover a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.card-hover a:hover {
+    text-decoration: underline;
+}
+
+/* SNS 섹션 */
+#sns-links {
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(stage_light.jpg);
+    background-size: height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* 뉴스 섹션 (추가용) */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 푸터 */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
